@@ -300,7 +300,7 @@ nav ul li a:hover {
     grid-column-start: 2;
     grid-template-rows: repeat(6,var(--column-size));
     grid-template-columns: repeat(12,var(--column-size));
-    grid-gap: 15px
+    grid-gap: 50px
 }
 
 .game-center {
@@ -309,8 +309,8 @@ nav ul li a:hover {
     width: 100%;
     overflow: hidden;
     display: grid;
-    grid-column: 1/span 8;
-    grid-column-start: 1;
+    grid-column: 2/span 8;
+    grid-column-start: 2;
     grid-row: span 5/span 5
 }
 
@@ -1487,7 +1487,7 @@ div#gameLoad.fullscreen {
     }
 
     .game-main {
-        grid-template-columns: repeat(11,var(--column-size));
+        grid-template-columns: repeat(1,var(--column-size));
         grid-gap: 10px
     }
 }
@@ -1822,7 +1822,7 @@ div#gameLoad.fullscreen {
     }
 
     .container {
-        width: 100%
+        width: 200%
     }
 
     .box-games {
@@ -1861,7 +1861,7 @@ div#gameLoad.fullscreen {
 
     .game-main {
         display: inline-block;
-        margin-top: 15px
+        margin-top: 200px
     }
 
     .game-center {
