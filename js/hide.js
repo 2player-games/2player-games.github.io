@@ -1,5 +1,5 @@
     var urlObj = new window.URL(window.location.href);
-    var url = "https://tiny-fishing.github.io/index.html";
+    var url = "https://2player-games.github.io/index.html";
  
     if (url) {
         var win;
