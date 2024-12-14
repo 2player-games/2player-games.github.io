@@ -7,6 +7,7 @@
     <link rel="preload" href="../style.css" as="style">
     <link rel="stylesheet" href="../style.css">
 <link rel="shortcut icon" href="/img/2small.png" />
+<meta name="robots" content="noindex,nofollow">
   </head>
   <body>
     <div >
@@ -27,7 +28,7 @@
             <div class="game-main">
               <div class="game-center">
                 <div id="gameLoad" class="game-loading">
-                  <div class="game-play">
+                  <div class="game-play" style="position: relative; z-index: 2;">
                     <img alt="Boxing random" src="https://bitlifeonline.github.io/boxing-random/logo.png" width="200" height="200" decoding="async" data-nimg="1" class="logo-game" loading="lazy" style="color:transparent">
                     <span class="game-title">Boxing random</span>
                     <span class="play-button" data-src="https://bitlifeonline.github.io/boxing-random/" onclick="playGame()" id="playButton">Play now</span>
@@ -39,80 +40,121 @@
                 </div>
               </div>
           </div>
-          <p><strong>Ralated games</strong></p>
-            <div class="list-item">
-              <a href="../game/getaway-shootout.html" title="Getaway Shootout" class="item">
-                <div class="image">
-                  <img src="https://webglmath.github.io/getaway-shootout/logo.png" width="200" height="200" alt="Getaway Shootout">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Getaway Shootout</h3>
-                </div>
-              </a>
-              
-              <a href="../game/go-kart-go-ultra.html" title="Go Kart Go Ultra" class="item">
-                <div class="image">
-                  <img src="https://ubg77.github.io/edit/go-kart-go-ultra/logo.png" width="200" height="200" alt="Go Kart Go Ultra">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Go Kart Go Ultra</h3>
-                </div>
-              </a>
-              
-              <a href="../game/house-of-hazards.html" title="House Of Hazards" class="item">
-                <div class="image">
-                  <img src="https://webglmath.github.io/house-of-hazards/logo.png" width="200" height="200" alt="House Of Hazards">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">House Of Hazards</h3>
-                </div>
-              </a>
-              
-              <a href="../game/ludo-hero.html" title="Ludo Hero" class="item">
-                <div class="image">
-                  <img src="https://slope-game.github.io/img/ludo-hero.png" width="200" height="200" alt="Ludo Hero">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Ludo Hero</h3>
-                </div>
-              </a>
-              
-              <a href="../game/money-movers-3.html" title="Money Movers 3" class="item">
-                <div class="image">
-                  <img src="https://slope-game.github.io/new3723/money-movers-3/logo.png" width="200" height="200" alt="Money Movers 3">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Money Movers 3</h3>
-                </div>
-              </a>
-              
-              <a href="../game/penalty-kick-online.html" title="Penalty Kick Online" class="item">
-                <div class="image">
-                  <img src="https://webglmath.github.io/penalty-kick-online/logo.png" width="200" height="200" alt="Penalty Kick Online">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Penalty Kick Online</h3>
-                </div>
-              </a>
-              
-              <a href="../game/rooftop-snipers.html" title="Rooftop Snipers" class="item">
-                <div class="image">
-                  <img src="https://webglmath.github.io/rooftop-snipers/logo.png" width="200" height="200" alt="Rooftop Snipers">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Rooftop Snipers</h3>
-                </div>
-              </a>
-              
-              <a href="../game/soccer-random.html" title="Soccer Random" class="item">
-                <div class="image">
-                  <img src="https://slope-game.github.io/new3723/soccer-random/logo.png" width="200" height="200" alt="Soccer Random">
-                </div>
-                <div class="content">
-                  <h3 class="heading-game">Soccer Random</h3>
-                </div>
-              </a>              
+          <div style="
+                margin-top: 40px;
+                padding-top: 30px;
+                border-top: 0;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+              ">
+                <a href="/index.html" class="cyber-btn" style="
+                  margin-top: 20px;
+                  display: inline-block;
+                  padding: 15px 50px;
+                  color: #fff;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  font-size: 24px;
+                  font-weight: bold;
+                  font-family: 'Arial', sans-serif;
+                  position: relative;
+                  border: 2px solid #ff6014;
+                  background: #060d25;
+                  box-shadow: 
+                    0 0 10px #ff6014,
+                    inset 0 0 10px #ff6014;
+                  text-shadow: 0 0 5px #ff6014;
+                  overflow: hidden;
+                  transition: all 0.3s;
+                  clip-path: polygon(92% 0, 100% 25%, 100% 75%, 92% 100%, 8% 100%, 0% 75%, 0% 25%, 8% 0);
+                ">
+                  <span class="glitch" data-text="Back to home" style="
+                    position: relative;
+                    display: inline-block;
+                    animation: glitch 3s infinite;
+                  ">Back to home</span>
+                  <span class="cyber-lines" style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: 
+                      linear-gradient(90deg, transparent 50%, rgba(255,96,20,0.1) 50%),
+                      linear-gradient(0deg, transparent 50%, rgba(255,96,20,0.1) 50%);
+                    background-size: 4px 4px;
+                    animation: cyber-bg 0.5s linear infinite;
+                  "></span>
+                </a>
               </div>
+          <p><strong>Ralated games</strong></p>
+          <div class="list-item">
+            <a href="../game/fastlane-frenzy.html" title="Fastlane frenzy" class="item">
+              <div class="image">
+                <img src="https://bitlifeonline.github.io/fastlane-frenzy/logo.png" width="200" height="200" alt="Fastlane frenzy">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Fastlane frenzy</h3>
+              </div>
+            </a>
+            <a href="../game/fireboy-water-3.html" title="Fireboy watergir 3" class="item">
+              <div class="image">
+                <img src="https://slope-game.github.io/fireboy-water-3/logo.png" width="200" height="200" alt="Fireboy watergir 3">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Fireboy watergir 3</h3>
+              </div>
+            </a>
+            <a href="../game/go-kart-go-ultra.html" title="Go Kart Go Ultra" class="item">
+              <div class="image">
+                <img src="https://ubg77.github.io/edit/go-kart-go-ultra/logo.png" width="200" height="200" alt="Go Kart Go Ultra">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Go Kart Go Ultra</h3>
+              </div>
+            </a>
+            <a href="../game/drunken-boxing-2.html" title="Drunken boxing 2" class="item">
+              <div class="image">
+                <img src="https://slope-game.github.io/drunken-boxing-2/logo.png" width="200" height="200" alt="Drunken boxing 2">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Drunken boxing 2</h3>
+              </div>
+            </a>
+            <a href="../game/ludo-hero.html" title="Ludo Hero" class="item">
+              <div class="image">
+                <img src="https://slope-game.github.io/img/ludo-hero.png" width="200" height="200" alt="Ludo Hero">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Ludo Hero</h3>
+              </div>
+            </a>
+            <a href="../game/money-movers-3.html" title="Money Movers 3" class="item">
+              <div class="image">
+                <img src="https://slope-game.github.io/new3723/money-movers-3/logo.png" width="200" height="200" alt="Money Movers 3">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Money Movers 3</h3>
+              </div>
+            </a>
+            <a href="../game/penalty-kick-online.html" title="Penalty Kick Online" class="item">
+              <div class="image">
+                <img src="https://webglmath.github.io/penalty-kick-online/logo.png" width="200" height="200" alt="Penalty Kick Online">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Penalty Kick Online</h3>
+              </div>
+            </a>
+            <a href="../game/rooftop-snipers.html" title="Rooftop Snipers" class="item">
+              <div class="image">
+                <img src="https://webglmath.github.io/rooftop-snipers/logo.png" width="200" height="200" alt="Rooftop Snipers">
+              </div>
+              <div class="content">
+                <h3 class="heading-game">Rooftop Snipers</h3>
+              </div>
+            </a>
+            </div>
           <div class="game-desc">
             <div class="game-desc-left">
               <style>
@@ -130,69 +172,195 @@
                 .stylish-text:hover {
                     transform: scale(1.01);
                 }
-                h1, h2 {
+                h1, h2, li {
               color: rgb(241, 145, 90);
               font-size: 1.5em;
                      }
-            </style>
-                <div class="stylish-text">
-                  <h1>Boxing Random: The Most Hilarious and Exciting Game of 2024!</h1>
-                  <p>Have you ever dreamed of a thrilling, yet fun and humorous match? Look no further than "Boxing Random" from 2 Player Games - an exhilarating and ever-changing game where you'll experience surprising and joyous matches.</p>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Z1MKjS72IWQ" frameborder="0" allowfullscreen></iframe>
 
-                  <h2>Introduction to Boxing Random</h2>
-                  <p>Boxing Random is a combat sports game that has quickly gained attention from players worldwide. With simple yet colorful graphics and lively sound effects, Boxing Random provides players with engaging combat experiences. The game can be played on both mobile phones and computers, allowing players to relax and entertain themselves anytime.</p>
-                  
-                  <h2>Overview of Boxing Random</h2>
-                  <p>Boxing Random is a 2-player combat game where you take on the role of a boxer and participate in intense matches. The game features 3 main play modes: "Quick Play," "Play with Friends," and "Challenge."</p>
-                  
-                  <h2>Gameplay and Highlights of Boxing Random</h2>
-                  <p>To start playing, simply move your character by swiping on the screen and use the attack buttons to hit your opponent. The game features 2 attack buttons: "Punch" and "Kick," which you can combine to create powerful combo moves.</p>
-                  
-                  <h2>Special Features of Boxing Random</h2>
-                  <ul>
-                    <li>Simple yet colorful and vibrant graphics.</li>
-                    <li>Easy-to-play gameplay suitable for all ages.</li>
-                    <li>Various play modes and diverse features.</li>
-                    <li>Playable on both mobile phones and computers.</li>
-                    <li>High level of competition between players.</li>
-                    <li>Plenty of weapons and special equipment for use in matches.</li>
-                  </ul>
-                  
-                  <h2>Player Reviews of Boxing Random</h2>
-                  <p>After trying out the game, many players have given positive reviews of Boxing Random. They praise the game for its simple yet colorful graphics, easy-to-play gameplay, and high level of competition between players. Additionally, many players consider Boxing Random to be one of the best combat games available and are always eager to challenge themselves to climb the leaderboard.</p>
-                  
-                  <h2>Reasons to Choose Boxing Random</h2>
-                  <p>With its standout features and positive player reviews, there's no reason why you shouldn't experience this game. Whether you're a fan of combat games or looking for a new and entertaining game, Boxing Random is the perfect choice for you.</p>
-                  
-                  <h2>Installation and Experience Guide for Boxing Random</h2>
-                  <p>To play Boxing Random, you'll need to install the game on your device. For mobile phones, you can download the game from the Google Play Store or the App Store. Meanwhile, for computers, you can download the game from the 2 Player Games website or directly from the developer's homepage.</p>
-                  
-                  <h2>Tips for Playing Boxing Random</h2>
-                  <ul>
-                    <li>Avoid playing excessively and for too long in a day to prevent health issues.</li>
-                    <li>If you encounter any issues while playing, contact the developer for assistance.</li>
-                    <li>Ensure a stable internet connection when playing to avoid interruptions during matches.</li>
-                  </ul>
-                  
-                  <h2>Developer Insights on Boxing Random</h2>
-                  <p>To better understand the development process and the game's special features, I had a conversation with the developer of this game. According to them, Boxing Random is one of their most heavily invested projects, and they hope the game will provide players with exciting and competitive experiences. Additionally, the developer mentioned that they always listen to player feedback and will strive to update and develop new features to satisfy players.</p>
-                  
-                  <h2>Conclusion: Why Boxing Random is the Perfect Choice for You</h2>
-                  <p>With the information and reviews provided, we can see that Boxing Random is an engaging combat game that's worth experiencing. With its simple yet vibrant graphics, easy-to-play gameplay, and high level of competition between players, this game will provide you with enjoyable and challenging moments. If you're a fan of combat games or looking for a new and exciting entertainment experience, download Boxing Random now and start playing! You won't be disappointed with this choice.</p>
-                  
-                  <h3>Some games at "2 player games" you might like</h3>
-                  <li><a href="https://2player-games.github.io/game/getaway-shootout.html">Getaway Shootout</a></li>
-                  <li><a href="https://2player-games.github.io/game/rooftop-snipers.html">Rooftop Snipers</a></li>
-                  <li><a href="https://2player-games.github.io/game/soccer-random.html">Soccer Random</a></li>
-                  
-                  <p>Keywords: Boxing Random, Boxing Random unblocked, BoxingRandom</p>
+                .ad-sidebar {
+                    position: fixed;
+                    width: 160px;
+                    height: 600px;
+                    background: rgba(6, 13, 37, 0.9);
+                    border: 2px solid #ff6014;
+                    z-index: 999;
+                    backdrop-filter: blur(5px);
+                    box-shadow: 0 0 15px rgba(255, 96, 20, 0.3);
+                    transition: all 0.3s ease;
+                    overflow: hidden;
+                }
+
+                .ad-sidebar::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                        90deg,
+                        transparent,
+                        rgba(255, 96, 20, 0.2),
+                        transparent
+                    );
+                    animation: shine 3s infinite;
+                }
+
+                .ad-sidebar::after {
+                    content: '';
+                    position: absolute;
+                    inset: 0;
+                    border: 2px solid transparent;
+                    background: linear-gradient(45deg, #ff6014, transparent, #ff6014) border-box;
+                    -webkit-mask: 
+                        linear-gradient(#fff 0 0) padding-box,
+                        linear-gradient(#fff 0 0);
+                    mask-composite: exclude;
+                    animation: borderRotate 4s linear infinite;
+                }
+
+                .ad-left {
+                    left: 270px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+                }
+
+                .ad-right {
+                    right: 270px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+                }
+
+                .ad-horizontal {
+                    width: 728px;
+                    height: 90px;
+                    margin: 20px auto;
+                    background: rgba(6, 13, 37, 0.9);
+                    border: 2px solid #ff6014;
+                    backdrop-filter: blur(5px);
+                    box-shadow: 0 0 20px rgba(255, 96, 20, 0.2);
+                    position: relative;
+                    overflow: hidden;
+                    transition: all 0.3s ease;
+                    clip-path: polygon(3% 0, 97% 0, 100% 50%, 97% 100%, 3% 100%, 0 50%);
+                }
+
+                .ad-horizontal::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                        90deg,
+                        transparent,
+                        rgba(255, 96, 20, 0.2),
+                        transparent
+                    );
+                    animation: shine 2s infinite;
+                }
+
+                /* Animations */
+                @keyframes shine {
+                    0% {
+                        left: -100%;
+                    }
+                    50%, 100% {
+                        left: 100%;
+                    }
+                }
+
+                @keyframes borderRotate {
+                    from {
+                        transform: rotate(0deg);
+                    }
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+
+                @media (max-width: 1200px) {
+                    .ad-sidebar {
+                        display: none;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .ad-horizontal {
+                        width: 100%;
+                        height: auto;
+                        min-height: 90px;
+                        clip-path: none;
+                    }
+                }
+
+                @keyframes glitch {
+                  0% {
+                    transform: translate(0);
+                  }
+                  20% {
+                    transform: translate(-2px, 2px);
+                  }
+                  40% {
+                    transform: translate(-2px, -2px);
+                  }
+                  60% {
+                    transform: translate(2px, 2px);
+                  }
+                  80% {
+                    transform: translate(2px, -2px);
+                  }
+                  100% {
+                    transform: translate(0);
+                  }
+                }
+
+                @keyframes cyber-bg {
+                  0% {
+                    background-position: 0 0;
+                  }
+                  100% {
+                    background-position: 4px 4px;
+                  }
+                }
+
+                .cyber-btn:hover {
+                  transform: scale(1.05);
+                  box-shadow: 
+                    0 0 20px #ff6014,
+                    inset 0 0 20px #ff6014;
+                  text-shadow: 0 0 10px #ff6014;
+                }
+
+                .cyber-btn:before {
+                  content: '';
+                  position: absolute;
+                  top: 0;
+                  left: -100%;
+                  width: 100%;
+                  height: 100%;
+                  background: linear-gradient(
+                    120deg,
+                    transparent,
+                    rgba(255,96,20,0.4),
+                    transparent
+                  );
+                  transition: 0.5s;
+                }
+
+                .cyber-btn:hover:before {
+                  left: 100%;
+                }
+            </style>
         </div>
       </div>
     </div>
   </div>
 </div>
-      <div class="game-desc">
+<div class="game-desc">
 <footer class="footer section">
   <div class="ft-img"></div>
     <div class="container">
@@ -210,6 +378,35 @@
       </div>
     </div>
 </footer>
+
+<!-- Quảng cáo bên trái -->
+<div class="ad-sidebar ad-left">
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:160px;height:600px"
+       data-ad-client="ca-pub-8136533182122624"
+       data-ad-slot="YOUR_AD_SLOT"></ins>
+</div>
+
+<!-- Quảng cáo bên phải -->
+<div class="ad-sidebar ad-right">
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:160px;height:600px"
+       data-ad-client="ca-pub-8136533182122624"
+       data-ad-slot="YOUR_AD_SLOT"></ins>
+</div>
+
+<!-- Thêm quảng cáo ngang vào sau phần game-center -->
+<div class="ad-horizontal">
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-8136533182122624"
+       data-ad-slot="YOUR_AD_SLOT"></ins>
+</div>
+
+<!-- Thêm script khởi tạo quảng cáo -->
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </body>
   <script src="../js/script.js"></script>
 </html>
